@@ -2,9 +2,9 @@
 Here are the links for the download of my bots. Enjoy !
 
 ## Insult Tracker - Very util
-An insult tracker that deletes messages containing inappropriate or nasty words.
-Only available with the french insults. The bot also answers in french.
-Link : https://discord.com/oauth2/authorize?client_id=1254500615837581415 
+##### An insult tracker that deletes messages containing inappropriate or nasty words.
+##### Only available with the french insults. The bot also answers in french.
+##### Link : https://discord.com/oauth2/authorize?client_id=1254500615837581415 
 
 
 ## The most useless bot in the galaxy - Funny 
