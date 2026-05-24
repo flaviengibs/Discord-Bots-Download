@@ -4,124 +4,90 @@
   <meta charset="UTF-8">
   <title>Discord Bots - flaviengibs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-    }
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    p.subtitle {
-      text-align: center;
-      color: #94a3b8;
-      margin-bottom: 40px;
-    }
-
-    .bot {
-      background: #1e293b;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 25px;
-    }
-
-    .bot h2 {
-      margin-top: 0;
-    }
-
-    .tag {
-      display: inline-block;
-      background: #334155;
-      padding: 4px 10px;
-      border-radius: 8px;
-      font-size: 12px;
-      margin-left: 10px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 16px;
-      background: #3b82f6;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: 0.2s;
-    }
-
-    .btn:hover {
-      background: #2563eb;
-    }
-
-    ul {
-      padding-left: 20px;
-      color: #cbd5f5;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      color: #64748b;
-      font-size: 14px;
-    }
-  </style>
+  <!-- TON CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="container">
-    <h1>Discord Bots</h1>
-    <p class="subtitle">by flaviengibs</p>
 
-    <div class="bot">
-      <h2>Insult Tracker <span class="tag">Useful</span></h2>
-      <p>
-        Moderation bot that detects and deletes inappropriate or insulting messages,
-        with automatic warnings and sanctions.
+  <!-- HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <span class="section-label">Bots</span>
+      <h1 class="page-title">Discord Bots</h1>
+      <p class="page-desc">
+        Add my custom Discord bots to your server.
       </p>
-      <p><strong>Languages:</strong> English & French</p>
-
-      <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1254500615837581415" target="_blank">
-        Add to Discord
-      </a>
     </div>
+  </section>
 
-    <div class="bot">
-      <h2>The Most Useless Bot in the Galaxy <span class="tag">Fun</span></h2>
-      <p>
-        A scripted conversational bot with a predefined interaction flow.
-        Completely useless, but mildly entertaining.
-      </p>
-      <p><strong>Language:</strong> French only</p>
+  <!-- CONTENT -->
+  <section class="section">
+    <div class="container">
 
-      <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1251812157440397384" target="_blank">
-        Add to Discord
-      </a>
+      <div class="projects-grid">
 
-      <h3>Quick instructions</h3>
-      <ul>
-        <li>Start with "bonjour"</li>
-        <li>Follow the conversation logic</li>
-        <li>Responses depend on keywords</li>
-        <li>Eventually the bot stops responding 😄</li>
-        <li>For more detailled instructions, look at <a href="https://github.com/flaviengibs/Discord-Bots-Download/README.md">README.md</a></li>
-      </ul>
+        <!-- INSULT TRACKER -->
+        <div class="project-card cat-bot">
+          <div class="card-header">
+            <div class="card-name">Insult Tracker</div>
+            <div class="cat-badge">
+              <div class="cat-dot"></div>
+              bot
+            </div>
+          </div>
+
+          <div class="card-desc">
+            Moderation bot that detects and deletes inappropriate or insulting messages,
+            with automatic warnings and sanctions (EN & FR).
+          </div>
+
+          <div class="card-footer">
+            <a class="btn btn-primary btn-full"
+               href="https://discord.com/oauth2/authorize?client_id=1254500615837581415"
+               target="_blank">
+              Add to Discord
+            </a>
+          </div>
+        </div>
+
+        <!-- USELESS BOT -->
+        <div class="project-card cat-bot">
+          <div class="card-header">
+            <div class="card-name">The Most Useless Bot</div>
+            <div class="cat-badge">
+              <div class="cat-dot"></div>
+              bot
+            </div>
+          </div>
+
+          <div class="card-desc">
+            Scripted conversational bot with predefined responses.
+            Completely useless, but fun to play with (FR only).
+          </div>
+
+          <div class="card-footer">
+            <a class="btn btn-primary btn-full"
+               href="https://discord.com/oauth2/authorize?client_id=1251812157440397384"
+               target="_blank">
+              Add to Discord
+            </a>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+  </section>
 
-    <footer>
-      flaviengibs • Discord Bots
-    </footer>
-  </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">flaviengibs</div>
+      <div class="footer-copy">Discord Bots</div>
+    </div>
+  </footer>
+
 </body>
 </html>
