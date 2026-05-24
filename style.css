@@ -516,6 +516,15 @@ p { color: var(--text-muted); }
   .footer-inner { flex-direction: column; text-align: center; }
 }
 
+.project-card::before {
+  pointer-events: none;
+}
+
+.card-footer {
+  position: relative;
+  z-index: 2;
+}
+
 /* ===== SCROLL ANIMATIONS ===== */
 .reveal {
   opacity: 0; transform: translateY(20px);
