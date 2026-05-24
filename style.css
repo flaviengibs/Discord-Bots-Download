@@ -524,6 +524,15 @@ p { color: var(--text-muted); }
   position: relative;
   z-index: 2;
 }
+.project-card::before {
+  pointer-events: none;
+  z-index: 0;
+}
+
+.project-card > * {
+  position: relative;
+  z-index: 1;
+}
 
 /* ===== SCROLL ANIMATIONS ===== */
 .reveal {
